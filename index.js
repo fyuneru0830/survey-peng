@@ -7,8 +7,8 @@ var json = {
 title: "词汇量测试",
 showProgressBar: "bottom",
 showTimerPanel: "top",
-maxTimeToFinishPage: 1000,
-maxTimeToFinish: 25000,
+maxTimeToFinishPage: 19,
+//maxTimeToFinish: 25000,
 firstPageIsStarted: true,
 startSurveyText: "开始做测试",
 
