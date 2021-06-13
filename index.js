@@ -7,7 +7,7 @@ var json = {
 title: "词汇量测试",
 showProgressBar: "bottom",
 showTimerPanel: "top",
-//maxTimeToFinishPage: 19,
+maxTimeToFinishPage: 19,
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
 startSurveyText: "开始做测试",
@@ -34,7 +34,7 @@ var questionQ1Array=[
         questions: [
             {
                 type:"html",
-                html:"<audio id=\"audio1\" src=\"2.mp3\" controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
+                html:"<audio src=\"2.mp3\" controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
             },
             {
                 type: "radiogroup",
@@ -70,7 +70,7 @@ var questionQ1Array=[
         questions: [
         {
             type:"html",
-            html:"<div id=\"audioDiv\"><audio onclick=\"playedOnce()\" src=\"sound.mp3\" type=\"audio/mp3\" preload=\"auto\" controls=\"controls\" oncontextmenu=\"return false;\">Audio could not be loaded.</audio></div></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: あの人は<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u> が好きだ。。</b>",
+            html:"<audio src=\"3.mp3\" autoplay controls></audio></div></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: あの人は<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u> が好きだ。。</b>",
         },
         {
             type: "radiogroup",
