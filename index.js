@@ -70,7 +70,7 @@ var questionQ1Array=[
         questions: [
         {
             type:"html",
-            html:"<audio src=\"3.mp3\" autoplay controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: あの人は<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u> が好きだ。。</b>",
+            html:"<div id=\"audioDiv\"><audio onclick=\"playedOnce()\" src=\"sound.mp3\" type=\"audio/mp3\" preload=\"auto\" controls=\"controls\" oncontextmenu=\"return false;\">Audio could not be loaded.</audio></div></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: あの人は<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u> が好きだ。。</b>",
         },
         {
             type: "radiogroup",
@@ -87,6 +87,8 @@ var questionQ1Array=[
     
     
 ]
+//
+
 //打乱顺序方法
 const shuffle = ([...array]) => {
     for (let i = array.length - 1; i >= 0; i--) {
@@ -101,6 +103,7 @@ questionQ1Array = shuffle(questionQ1Array);
 Array.prototype.push.apply(json.pages, questionQ1Array);
 
 //---------------------
+
 window.survey = new Survey.Model(json);
 survey
 .onComplete
