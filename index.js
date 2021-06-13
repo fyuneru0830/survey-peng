@@ -34,7 +34,7 @@ var questionQ1Array=[
         questions: [
             {
                 type:"html",
-                html:"<audio src=\"2.mp3\" controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
+                html:"<audio src=\"2.mp3\" autoplay controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
             },
             {
                 type: "radiogroup",
