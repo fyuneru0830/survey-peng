@@ -34,7 +34,7 @@ var questionQ1Array=[
         questions: [
             {
                 type:"html",
-                html:"<audio src=\"2.mp3\" autoplay controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
+                html:"<audio id=\"audio1\" src=\"2.mp3\" controls></audio></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: ここには三つの<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>があります。</b>",
             },
             {
                 type: "radiogroup",
@@ -87,8 +87,6 @@ var questionQ1Array=[
     
     
 ]
-//
-
 //打乱顺序方法
 const shuffle = ([...array]) => {
     for (let i = array.length - 1; i >= 0; i--) {
