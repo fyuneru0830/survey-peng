@@ -99,7 +99,7 @@ var jsondata = `
     },
     {
       "nom": 8,
-      "profir": null,
+      "profir": "",
       "proen": "をついたまま動かない。",
       "A": "张开腿坐着",
       "B": "头靠着墙",
@@ -123,7 +123,7 @@ var jsondata = `
     },
     {
       "nom": 10,
-      "profir": null,
+      "profir": "",
       "proen": "の人だ。",
       "A": "从零开始学习，一点点获得实力的人",
       "B": "一出生就拥有很高地位的人",
@@ -183,7 +183,7 @@ var jsondata = `
     },
     {
       "nom": 15,
-      "profir": null,
+      "profir": "",
       "proen": "について勉強した。",
       "A": "管理武士的组织",
       "B": "为了城镇工作的人",
@@ -207,7 +207,7 @@ var jsondata = `
     },
     {
       "nom": 17,
-      "profir": null,
+      "profir": "",
       "proen": "ような声で話した。",
       "A": "像唱歌一样的声音",
       "B": "快要听不见的声音",
@@ -219,7 +219,7 @@ var jsondata = `
     },
     {
       "nom": 18,
-      "profir": null,
+      "profir": "",
       "proen": "を選ぶ。",
       "A": "已婚女士在婚礼上穿的衣物",
       "B": "在西洋等外国出版的书",
@@ -267,7 +267,7 @@ var jsondata = `
     },
     {
       "nom": 22,
-      "profir": null,
+      "profir": "",
       "proen": "セールに行く。",
       "A": "在各种各样的地方广泛使用",
       "B": "清理剩余物品",
@@ -339,7 +339,7 @@ var jsondata = `
     },
     {
       "nom": 28,
-      "profir": null,
+      "profir": "",
       "proen": "を見るのが好きだ。",
       "A": "演奏音乐的团队",
       "B": "规模宏大的作品",
@@ -363,7 +363,7 @@ var jsondata = `
     },
     {
       "nom": 30,
-      "profir": null,
+      "profir": "",
       "proen": "したところである。",
       "A": "开始营业",
       "B": "写成文章",
@@ -375,7 +375,7 @@ var jsondata = `
     },
     {
       "nom": 31,
-      "profir": null,
+      "profir": "",
       "proen": "を買う。",
       "A": "浇在食物上面的白色的东西",
       "B": "在节日庆典活动中做装饰的物品",
@@ -423,7 +423,7 @@ var jsondata = `
     },
     {
       "nom": 35,
-      "profir": null,
+      "profir": "",
       "proen": "をしたら知らせてください。",
       "A": "交了钱的话",
       "B": "做了记录的话",
@@ -447,7 +447,7 @@ var jsondata = `
     },
     {
       "nom": 37,
-      "profir": null,
+      "profir": "",
       "proen": "を見た。",
       "A": "刚从身体里流出的红色的东西",
       "B": "做得很相似的东西",
@@ -459,7 +459,7 @@ var jsondata = `
     },
     {
       "nom": 38,
-      "profir": null,
+      "profir": "",
       "proen": "が大きい。",
       "A": "售出金额和买入金额的差",
       "B": "觉得喜欢的那种心情",
@@ -507,7 +507,7 @@ var jsondata = `
     },
     {
       "nom": 42,
-      "profir": null,
+      "profir": "",
       "proen": "絞めにした。",
       "A": "采取旁若无人的态度",
       "B": "将别人的胳膊绕到其背后，并使之无法动弹",
@@ -531,7 +531,7 @@ var jsondata = `
     },
     {
       "nom": 44,
-      "profir": null,
+      "profir": "",
       "proen": "の馬がほしい。",
       "A": "整体是褐色，一部分是黑色",
       "B": "名字广为人知的",
@@ -591,7 +591,7 @@ var jsondata = `
     },
     {
       "nom": 49,
-      "profir": null,
+      "profir": "",
       "proen": "が高くなった。",
       "A": "全世界共通的货币单位",
       "B": "处理图像时的颜色信息单位",
@@ -627,7 +627,7 @@ var jsondata = `
     },
     {
       "nom": 52,
-      "profir": null,
+      "profir": "",
       "proen": "をしよう。",
       "A": "给受灾的人提供餐食",
       "B": "不考虑质量地大量制作、生产",
@@ -735,7 +735,7 @@ var jsondata = `
     },
     {
       "nom": 61,
-      "profir": null,
+      "profir": "",
       "proen": "の服をよく買います。",
       "A": "男性喜欢的女装",
       "B": "男性使用的衣服",
@@ -783,7 +783,7 @@ var jsondata = `
     },
     {
       "nom": 65,
-      "profir": null,
+      "profir": "",
       "proen": "飼いをしている。",
       "A": "饲养各种各样的动物",
       "B": "大家一起饲养动物",
@@ -807,7 +807,7 @@ var jsondata = `
     },
     {
       "nom": 67,
-      "profir": null,
+      "profir": "",
       "proen": "が見える。",
       "A": "发信号用的烟",
       "B": "高山连绵的地方",
@@ -819,7 +819,7 @@ var jsondata = `
     },
     {
       "nom": 68,
-      "profir": null,
+      "profir": "",
       "proen": "の神社でお祭りがある。",
       "A": "保护远行之人安全的东西",
       "B": "守护住在同一个地方的人们的东西",
@@ -831,7 +831,7 @@ var jsondata = `
     },
     {
       "nom": 69,
-      "profir": null,
+      "profir": "",
       "proen": "を注文した。",
       "A": "气候温暖的国家的水果",
       "B": "英国的威士忌",
@@ -843,7 +843,7 @@ var jsondata = `
     },
     {
       "nom": 70,
-      "profir": null,
+      "profir": "",
       "proen": "はいくらですか。",
       "A": "居民交的钱",
       "B": "最高的价格",
@@ -903,7 +903,7 @@ var jsondata = `
     },
     {
       "nom": 75,
-      "profir": null,
+      "profir": "",
       "proen": "期の問題を理解する。",
       "A": "从农业转为工业的时期",
       "B": "个人存钱的时期",
@@ -927,7 +927,7 @@ var jsondata = `
     },
     {
       "nom": 77,
-      "profir": null,
+      "profir": "",
       "proen": "を目指す。",
       "A": "拥有丰富的兴趣爱好",
       "B": "质量好的商品",
@@ -939,7 +939,7 @@ var jsondata = `
     },
     {
       "nom": 78,
-      "profir": null,
+      "profir": "",
       "proen": "に行う。",
       "A": "自主、自发地考虑后",
       "B": "将困难的或者新鲜的事物……",
@@ -1035,7 +1035,7 @@ var jsondata = `
     },
     {
       "nom": 86,
-      "profir": null,
+      "profir": "",
       "proen": "歌を聞く。",
       "A": "表达战斗胜利时喜悦的歌",
       "B": "从过去流传下来的歌",
@@ -1059,7 +1059,7 @@ var jsondata = `
     },
     {
       "nom": 88,
-      "profir": null,
+      "profir": "",
       "proen": "の映画を見た。",
       "A": "海中的植物",
       "B": "和自己的国家差异很大的外国",
@@ -1071,7 +1071,7 @@ var jsondata = `
     },
     {
       "nom": 89,
-      "profir": null,
+      "profir": "",
       "proen": "でそれを知った。",
       "A": "一般人不知道的故事",
       "B": "刊登了新闻报道的页面",
@@ -1107,7 +1107,7 @@ var jsondata = `
     },
     {
       "nom": 92,
-      "profir": null,
+      "profir": "",
       "proen": "繚乱の様子だ。",
       "A": "发出声音，有晃动",
       "B": "清晰可见",
@@ -1155,7 +1155,7 @@ var jsondata = `
     },
     {
       "nom": 96,
-      "profir": null,
+      "profir": "",
       "proen": "の話を聞いた。",
       "A": "表示身体肥胖状况数字",
       "B": "用于治疗癌症的药物",
@@ -1227,7 +1227,7 @@ var jsondata = `
     },
     {
       "nom": 102,
-      "profir": null,
+      "profir": "",
       "proen": "を探した。",
       "A": "有能力的人",
       "B": "良药",
@@ -1239,7 +1239,7 @@ var jsondata = `
     },
     {
       "nom": 103,
-      "profir": null,
+      "profir": "",
       "proen": "とは何か。",
       "A": "以天为单位工作",
       "B": "加强军备的想法",
@@ -1251,7 +1251,7 @@ var jsondata = `
     },
     {
       "nom": 104,
-      "profir": null,
+      "profir": "",
       "proen": "はどこですか。",
       "A": "主战场",
       "B": "日本的县与县之间的分界线",
@@ -1263,7 +1263,7 @@ var jsondata = `
     },
     {
       "nom": 105,
-      "profir": null,
+      "profir": "",
       "proen": "を覚えるのは大事だ。",
       "A": "给外国作品取的日文名",
       "B": "汉字的右侧的部分",
@@ -1275,7 +1275,7 @@ var jsondata = `
     },
     {
       "nom": 106,
-      "profir": null,
+      "profir": "",
       "proen": "について勉強する。",
       "A": "开始写文章时的心情",
       "B": "通过巨大的（压）力使金属变形的方法",
@@ -1299,7 +1299,7 @@ var jsondata = `
     },
     {
       "nom": 108,
-      "profir": null,
+      "profir": "",
       "proen": "話す。",
       "A": "一部分",
       "B": "热闹地、喧闹地",
@@ -1335,7 +1335,7 @@ var jsondata = `
     },
     {
       "nom": 111,
-      "profir": null,
+      "profir": "",
       "proen": "がたくさんある。",
       "A": "之前投给公司的钱",
       "B": "山里能抓到动物的地方",
@@ -1395,7 +1395,7 @@ var jsondata = `
     },
     {
       "nom": 116,
-      "profir": null,
+      "profir": "",
       "proen": "を書いて送った。",
       "A": "挑重要部分出来讲的东西",
       "B": "关乎社会之基本的、已经被决定下来的事情",
@@ -1431,7 +1431,7 @@ var jsondata = `
     },
     {
       "nom": 119,
-      "profir": null,
+      "profir": "",
       "proen": "、そうですか。",
       "A": "吃惊的时候发出的声音",
       "B": "觉得无聊的时候发出的声音",
@@ -1455,7 +1455,7 @@ var jsondata = `
     },
     {
       "nom": 121,
-      "profir": null,
+      "profir": "",
       "proen": "によって歴史が変わった。",
       "A": "来自国王的指示",
       "B": " 贵族引起的事件",
@@ -1479,7 +1479,7 @@ var jsondata = `
     },
     {
       "nom": 123,
-      "profir": null,
+      "profir": "",
       "proen": "が壊れた。",
       "A": "导电的机器",
       "B": " 使温度保持恒温的机器",
@@ -1491,7 +1491,7 @@ var jsondata = `
     },
     {
       "nom": 124,
-      "profir": null,
+      "profir": "",
       "proen": "を取った。",
       "A": "身体表面的硬疙瘩",
       "B": "治疗体内损伤的成分",

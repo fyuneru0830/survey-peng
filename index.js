@@ -25,7 +25,14 @@ pages: [
 ],
 completedHtml: "<h4>恭喜你答对了<b>{questionCount}</b>道中<b>{correctedAnswers}</b>道问题</h4>"
 };
-
+//打乱顺序方法
+const shuffle = ([...array]) => {
+    for (let i = array.length - 1; i >= 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
 //获取数据
 var data = JSON.parse(jsondata);
 data = Object.values(data)[0]
@@ -36,7 +43,7 @@ function mq(number) {
         questions: [
         {
             type:"html",
-            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: "+data[number]['profir']+"<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u> "+data[number]['proen']+"</b>",
+            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br><b><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>: "+data[number]['profir']+"<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u><u>"+data[number]['proen']+"</u></b>",
         },
         {
             type: "radiogroup",
@@ -50,144 +57,24 @@ function mq(number) {
     }]
     return array[0];
 }
+function mr(){
+    array = [{
+        maxTimeToFinish: 20,
+        questions: [
+        {
+            type:"html",
+            html:"休息20秒",
+        },
+    ]
+    }]
+    return array[0];
+}
 //第一组题
 var questionQ1Array=[ 
 ]
 //添加题
-questionQ1Array.push(mq(1));
-questionQ1Array.push(mq(2));
-questionQ1Array.push(mq(3));
-questionQ1Array.push(mq(4));
-questionQ1Array.push(mq(5));
-questionQ1Array.push(mq(6));
-questionQ1Array.push(mq(7));
-questionQ1Array.push(mq(8));
-questionQ1Array.push(mq(9));
-questionQ1Array.push(mq(10));
-questionQ1Array.push(mq(11));
-questionQ1Array.push(mq(12));
-questionQ1Array.push(mq(13));
-questionQ1Array.push(mq(14));
-questionQ1Array.push(mq(15));
-questionQ1Array.push(mq(16));
-questionQ1Array.push(mq(17));
-questionQ1Array.push(mq(18));
-questionQ1Array.push(mq(19));
-questionQ1Array.push(mq(20));
-questionQ1Array.push(mq(21));
-questionQ1Array.push(mq(22));
-questionQ1Array.push(mq(23));
-questionQ1Array.push(mq(24));
-questionQ1Array.push(mq(25));
-questionQ1Array.push(mq(26));
-questionQ1Array.push(mq(27));
-questionQ1Array.push(mq(28));
-questionQ1Array.push(mq(29));
-questionQ1Array.push(mq(30));
-questionQ1Array.push(mq(31));
-questionQ1Array.push(mq(32));
-questionQ1Array.push(mq(33));
-questionQ1Array.push(mq(34));
-questionQ1Array.push(mq(35));
-questionQ1Array.push(mq(36));
-questionQ1Array.push(mq(37));
-questionQ1Array.push(mq(38));
-questionQ1Array.push(mq(39));
-questionQ1Array.push(mq(40));
-questionQ1Array.push(mq(41));
-questionQ1Array.push(mq(42));
-questionQ1Array.push(mq(43));
-questionQ1Array.push(mq(44));
-questionQ1Array.push(mq(45));
-questionQ1Array.push(mq(46));
-questionQ1Array.push(mq(47));
-questionQ1Array.push(mq(48));
-questionQ1Array.push(mq(49));
-questionQ1Array.push(mq(50));
-questionQ1Array.push(mq(51));
-questionQ1Array.push(mq(52));
-questionQ1Array.push(mq(53));
-questionQ1Array.push(mq(54));
-questionQ1Array.push(mq(55));
-questionQ1Array.push(mq(56));
-questionQ1Array.push(mq(57));
-questionQ1Array.push(mq(58));
-questionQ1Array.push(mq(59));
-questionQ1Array.push(mq(60));
-questionQ1Array.push(mq(61));
-questionQ1Array.push(mq(62));
-questionQ1Array.push(mq(63));
-questionQ1Array.push(mq(64));
-questionQ1Array.push(mq(65));
-questionQ1Array.push(mq(66));
-questionQ1Array.push(mq(67));
-questionQ1Array.push(mq(68));
-questionQ1Array.push(mq(69));
-questionQ1Array.push(mq(70));
-questionQ1Array.push(mq(71));
-questionQ1Array.push(mq(72));
-questionQ1Array.push(mq(73));
-questionQ1Array.push(mq(74));
-questionQ1Array.push(mq(75));
-questionQ1Array.push(mq(76));
-questionQ1Array.push(mq(77));
-questionQ1Array.push(mq(78));
-questionQ1Array.push(mq(79));
-questionQ1Array.push(mq(80));
-questionQ1Array.push(mq(81));
-questionQ1Array.push(mq(82));
-questionQ1Array.push(mq(83));
-questionQ1Array.push(mq(84));
-questionQ1Array.push(mq(85));
-questionQ1Array.push(mq(86));
-questionQ1Array.push(mq(87));
-questionQ1Array.push(mq(88));
-questionQ1Array.push(mq(89));
-questionQ1Array.push(mq(90));
-questionQ1Array.push(mq(91));
-questionQ1Array.push(mq(92));
-questionQ1Array.push(mq(93));
-questionQ1Array.push(mq(94));
-questionQ1Array.push(mq(95));
-questionQ1Array.push(mq(96));
-questionQ1Array.push(mq(97));
-questionQ1Array.push(mq(98));
-questionQ1Array.push(mq(99));
-questionQ1Array.push(mq(100));
-questionQ1Array.push(mq(101));
-questionQ1Array.push(mq(102));
-questionQ1Array.push(mq(103));
-questionQ1Array.push(mq(104));
-questionQ1Array.push(mq(105));
-questionQ1Array.push(mq(106));
 questionQ1Array.push(mq(107));
-questionQ1Array.push(mq(108));
-questionQ1Array.push(mq(109));
-questionQ1Array.push(mq(110));
-questionQ1Array.push(mq(111));
-questionQ1Array.push(mq(112));
-questionQ1Array.push(mq(113));
-questionQ1Array.push(mq(114));
-questionQ1Array.push(mq(115));
-questionQ1Array.push(mq(116));
-questionQ1Array.push(mq(117));
-questionQ1Array.push(mq(118));
-questionQ1Array.push(mq(119));
-questionQ1Array.push(mq(120));
-questionQ1Array.push(mq(121));
-questionQ1Array.push(mq(122));
-questionQ1Array.push(mq(123));
-questionQ1Array.push(mq(124));
-questionQ1Array.push(mq(125));
-console.log(questionQ1Array);
-//打乱顺序方法
-const shuffle = ([...array]) => {
-    for (let i = array.length - 1; i >= 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
+
 //打乱第一组
 questionQ1Array = shuffle(questionQ1Array);
 //合并原Array和第一组
