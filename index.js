@@ -43,7 +43,7 @@ function mq(number) {
         questions: [
         {
             type:"html",
-            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br><u>&nbsp</u>：これは一種 の<u>&nbsp</u>だ。",
+            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br><u>&nbsp&nbsp&nbsp&nbsp&nbsp</u>：それは<u>&nbsp&nbsp&nbsp&nbsp&nbsp</u>。",
         },
         {
             type: "radiogroup",
