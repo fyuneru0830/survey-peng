@@ -6,7 +6,7 @@ var json = {
 title: "词汇量测试",
 showProgressBar: "bottom",
 showTimerPanel: "top",
-maxTimeToFinishPage: 19,
+// maxTimeToFinishPage: 19,
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
 startSurveyText: "开始做测试",
@@ -16,8 +16,32 @@ pages: [
         questions: [
             {
                 type: "html",
-                html: "<pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">接下来一共有</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">125</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">个考察</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">词汇含义的题目。这些词汇是从使用频率较高的前</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">50000</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">词中挑选出来的，词与词之间难易程度的跨度较大，且出题顺序是随机的，请耐心做到最后最后一题。</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&nbsp;</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">考察每个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">单</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">独的</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">词汇时</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，你会看到如下的</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">页</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">面，并听到一段</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">录</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">音。</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&nbsp;</span></p><pstyle=\"margin-left:17.85pt;line-height:20.0pt;text-autospace:none;\"><strong><spanstyle=\"font-size:11.0pt;font-family:'ＭＳゴシック';color:black;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">本题</span><spanstyle=\"font-size:10.0pt;font-family:SimSun;color:black;\">还</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">剩00：19</span></p><pstyle=\"margin-left:17.85pt;line-height:20.0pt;text-autospace:none;\"><strong><u><spanstyle=\"font-size:11.0pt;font-family:'ＭＳゴシック';color:black;\">&nbsp;&nbsp;&nbsp;</span></u></strong><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">:</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">それは</span><strong><u><spanstyle=\"font-size:11.0pt;font-family:'ＭＳゴシック';color:black;\">&nbsp;&nbsp;&nbsp;</span></u></strong><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">1</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">）不听</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">2</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">）不知道</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">3</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">）做不到</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">4</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">）不同</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">5</span><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">）我不知道这个词</span></p><pstyle=\"margin-left:18.0pt;line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:10.0pt;font-family:'HGP教科書体',serif;color:black;\">&nbsp;</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">录</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">音的内容是</span><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题</span></strong><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">干部分</span></strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">（要考察的</span><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">单词</span></strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，以及使用了</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">该词的一个<strong>例句</strong></span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">）。</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题目</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">考察的</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">单词</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">以及例句中</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">该单词</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">部分将不会以文字形式</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">显</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">示出来。</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&nbsp;</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">每</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">有</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">5</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">选项</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，前</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">4</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">选项中只有一个<strong>正确地（但不一定完整、精确地）</strong>描述了该单词所指代的意思；若例句中，该单词以外的其他部分也标注了下划线的话，则是指<strong><u>包含该单词在内的所有下划线部分</u></strong>的含义。</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&nbsp;</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">当你</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">觉</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">得某个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">选项可能是对的时候，请</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">做出</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">选择</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">；当你<strong>完全不知道</strong></span><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">该单词</span></strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">时</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">请选择</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">最后一个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">选项</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&ldquo;我不知道</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">这</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">个</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">词</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&rdquo;。</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">&nbsp;</span></p><pstyle=\"line-height:20.0pt;text-autospace:none;\"><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">注意：</span></p><ul><li><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\"><spanstyle=\"font:7.0pt'TimesNewRoman';\"></span></span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">请</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">不要在一道</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">上</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">犹豫过多的时间，</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">每</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">的做</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题时间</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">最</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">长为</span><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">19</span></strong><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">秒</span></strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">19</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">秒后页面将<strong>自动跳转</strong>到下一题。</span></li><li><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\"><spanstyle=\"font:7.0pt'TimesNewRoman';\"></span></span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">每道题作出选择后，页面将自动跳转到下一题，且<strong>无法回退</strong>到上一界面，请看仔细后再选择</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">。</span></li><li><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\"><spanstyle=\"font:7.0pt'TimesNewRoman';\"></span></span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">每完成</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">25</span><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">题，会有一个</span><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">20</span></strong><strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">秒的休息时间</span></strong><spanstyle=\"font-size:11.0pt;font-family:DengXian;color:black;\">，如觉得不用休息或想提前结束休息，可以点&ldquo;跳过休息&rdquo;。</span></li></ul>",
-            },
+                html: `<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;text-align: center;line-height: 16pt;'><strong><span style="font-size:19px;font-family: DengXian;">词汇测试说明</span></strong></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;text-align: center;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">（</span><span style="font-size:15px;font-family: DengXian;">30</span><span style='font-size:15px;font-family: "ＭＳ 明朝";'>〜</span><span style='font-size:15px;font-family: "ＭＳ 明朝";'>45</span><span style='font-size:15px;font-family: "ＭＳ 明朝";'>分</span><span style="font-size:15px;font-family: SimSun;">钟</span><span style="font-size:15px;font-family: DengXian;">）</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">接下来一共有</span><span style="font-size:15px;font-family: DengXian;">125</span><span style="font-size:15px;font-family: DengXian;">道</span><span style="font-size:15px;font-family: DengXian;">题目，每题</span><span style="font-size:15px;font-family: DengXian;">考察</span><span style="font-size:15px;font-family: DengXian;">1</span><span style="font-size:15px;font-family: DengXian;">个</span><span style="font-size:15px;font-family: DengXian;">词汇。这些词汇之间难易度的跨度较大，既有简单的词汇，也有非常困难的词汇。并且，每位考生的出题顺序是随机的（并非按照难易度排序）。请您耐心做到最后一题，并点击&ldquo;提交&rdquo;。<strong><span style="color: rgb(47, 84, 150);">测试结尾会告知本次测验的得分以及您掌握的大致的词汇量。</span></strong></span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;color: rgb(47, 84, 150);">本套测试题</span><span style="font-size:15px;font-family: DengXian;">一共有<strong>两种题型</strong>。</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">类型1：考察 <strong><span style="color: rgb(83, 129, 53);">单词</span>&nbsp;</strong>的含义</span></p>
+                <p style='margin: 6pt 0mm 0.0001pt 17.85pt;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>　&nbsp; &nbsp;&nbsp;</span></u></strong><span style="font-size:13px;font-family: HGP教科書体, serif;">:</span><span style="font-size:13px;font-family: HGP教科書体, serif;">　それは</span><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>　&nbsp; &nbsp;&nbsp;</span></u></strong><span style="font-size:13px;font-family: HGP教科書体, serif;">。</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">A</span><span style="font-size:13px;font-family: HGP教科書体, serif;">&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">不听</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">B</span><span style="font-size:13px;font-family: HGP教科書体, serif;">&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">不知道</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">C&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">做不到</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">D&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">不一</span><span style="font-size:13px;font-family: SimSun;">样</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">我不知道</span><span style="font-size:13px;font-family: SimSun;">这</span><span style="font-size:13px;font-family: HGP教科書体, serif;">个</span><span style="font-size:13px;font-family: SimSun;">词</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">类型</span><span style="font-size:15px;font-family: DengXian;">2</span><span style="font-size:15px;font-family: DengXian;">：考察 <strong><span style="color: rgb(83, 129, 53);">含单词在内的下划线部分</span>&nbsp;</strong>的含义</span></p>
+                <p style='margin: 6pt 0mm 0.0001pt 17.85pt;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>　</span></u></strong><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&nbsp; &nbsp;&nbsp;</span></u></strong><span style="font-size:13px;font-family: HGP教科書体, serif;">:</span><span style="font-size:13px;font-family: HGP教科書体, serif;">　<u>それは</u></span><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>　&nbsp; &nbsp;&nbsp;</span></u></strong><span style="font-size:13px;font-family: HGP教科書体, serif;">。</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">A&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">那个不听</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">B&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">那个不一</span><span style="font-size:13px;font-family: SimSun;">样</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">C&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">那个做不到</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">D&nbsp;</span><span style="font-size:13px;font-family: HGP教科書体, serif;">那个不知道</span></p>
+                <p style='margin: 0mm 0mm 0mm 18pt;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:13px;font-family: HGP教科書体, serif;">我不知道</span><span style="font-size:13px;font-family: SimSun;">这</span><span style="font-size:13px;font-family: HGP教科書体, serif;">个</span><span style="font-size:13px;font-family: SimSun;">词</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">每道题目中，</span><span style="font-size:15px;font-family: DengXian;">您都会听到一段</span><span style="font-size:15px;font-family: DengXian;">录</span><span style="font-size:15px;font-family: DengXian;">音。</span><span style="font-size:15px;font-family: DengXian;">录</span><span style="font-size:15px;font-family: DengXian;">音的内容为</span><strong><span style="font-size:15px;font-family: DengXian;">题</span></strong><strong><span style="font-size:15px;font-family: DengXian;">干部分</span></strong><span style="font-size:15px;font-family: DengXian;">（该题考察的</span><strong><span style="font-size:15px;font-family: DengXian;">单词</span></strong><span style="font-size:15px;font-family: DengXian;">+</span><span style="font-size:15px;font-family: DengXian;">使用了</span><span style="font-size:15px;font-family: DengXian;">该单词的一个<strong>例句</strong></span><span style="font-size:15px;font-family: DengXian;">）。请注意：①每段录音将只放一遍，②</span><span style="font-size:15px;font-family: DengXian;">该题</span><u><span style="font-size:15px;font-family: DengXian;">考察的</span></u><u><span style="font-size:15px;font-family: DengXian;">单词</span></u><span style="font-size:15px;font-family: DengXian;">和<u>例句中</u></span><u><span style="font-size:15px;font-family: DengXian;">该单词</span></u><u><span style="font-size:15px;font-family: DengXian;">部分</span></u><span style="font-size:15px;font-family: DengXian;">将<strong>不会以文字形式</strong></span><strong><span style="font-size:15px;font-family: DengXian;">显</span></strong><strong><span style="font-size:15px;font-family: DengXian;">示</span></strong><span style="font-size:15px;font-family: DengXian;">出来。</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">每</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">都有</span><span style="font-size:15px;font-family: DengXian;">5</span><span style="font-size:15px;font-family: DengXian;">个</span><span style="font-size:15px;font-family: DengXian;">选项</span><span style="font-size:15px;font-family: DengXian;">，请从前</span><span style="font-size:15px;font-family: DengXian;">4</span><span style="font-size:15px;font-family: DengXian;">个选项（</span><span style="font-size:15px;font-family: DengXian;">A</span><span style="font-size:15px;font-family: DengXian;">～</span><span style="font-size:15px;font-family: DengXian;">D</span><span style="font-size:15px;font-family: DengXian;">）中选出与<strong>单词</strong>或<strong>下划线部分</strong>的含义<strong><u>最接近的一项</u></strong>。当您完全不知道</span><span style="font-size:15px;font-family: DengXian;">该单词或该划线部分的含义时</span><span style="font-size:15px;font-family: DengXian;">，</span><span style="font-size:15px;font-family: DengXian;">请选择</span><span style="font-size:15px;font-family: DengXian;">最后一个</span><span style="font-size:15px;font-family: DengXian;">选项</span><span style="font-size:15px;font-family: DengXian;">&ldquo;我不知道</span><span style="font-size:15px;font-family: DengXian;">这</span><span style="font-size:15px;font-family: DengXian;">个</span><span style="font-size:15px;font-family: DengXian;">词</span><span style="font-size:15px;font-family: DengXian;">&rdquo;。</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">请</span><span style="font-size:15px;font-family: DengXian;">不要在某一道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">上</span><span style="font-size:15px;font-family: DengXian;">犹豫过多的时间。</span><span style="font-size:15px;font-family: DengXian;">每道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">的做</span><span style="font-size:15px;font-family: DengXian;">题时间<span style="color: rgb(68, 114, 196);">上限为</span></span><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">20</span></strong><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">秒</span></strong><span style="font-size:15px;font-family: DengXian;">（包括播放录音的时间），完成选择后请点击&ldquo;下一题&rdquo;。请注意：①若</span><span style="font-size:15px;font-family: DengXian;">20</span><span style="font-size:15px;font-family: DengXian;">秒内没有点击&ldquo;</span><span style="font-size:15px;font-family: DengXian;">下一题</span><span style="font-size:15px;font-family: DengXian;">&rdquo;，页面将会<strong>自动跳转</strong>到下一题，</span><span style="font-size:15px;font-family: DengXian;">②&nbsp;</span><span style="font-size:15px;font-family: DengXian;">页面一旦跳转后，将<strong>无法回退</strong>到上一页面，所以每道题请看清题目和选项后再作答</span><span style="font-size:15px;font-family: DengXian;">。</span></p>`,
+            }
 
         ]
     },  
@@ -36,6 +60,55 @@ const shuffle = ([...array]) => {
 //获取数据
 var data = JSON.parse(jsondata);
 data = Object.values(data)[0]
+//生成例题
+function mliti(number=0) {
+    array = [{
+        // maxTimeToFinish: 19,
+        questions: [
+        {
+            type:"html",
+            html:"<h1>例题1：</h1><audio src=\"audio/0.mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
+        },
+        {
+            type: "radiogroup",
+            title:"请选择中文意思",
+            name: ""+data[number]['target']+"",
+            choices: [
+                ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
+            correctAnswer: ""+data[number][data[number]['correct']]+""
+        }
+    ]
+    }]
+    return array[0];
+}
+var litiArray=[ 
+]
+litiArray.push(mliti());
+//生成例题讲解
+function mlitijiangjie(number=0) {
+    array = [{
+        // maxTimeToFinish: 19,
+        questions: [
+        {
+            type:"html",
+            html:`
+            <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style="font-size:19px;font-family: SimSun;">讲</span></strong><strong><span style='font-size:19px;font-family: "ＭＳ ゴシック";'>解</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>（正式</span></strong><strong><span style="font-size:15px;font-family: SimSun;">测试</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>没有</span></strong><strong><span style="font-size:15px;font-family: SimSun;">讲</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>解）</span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&nbsp;</span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>您听到</span></strong><strong><span style="font-size:15px;font-family: SimSun;">录</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>音是</span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>ちがいます</span></u></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>：それは<u>ちがいます</u><em>。</em></span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&nbsp;</span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>所以，正确选项是：&ldquo;</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>D&nbsp;</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>不一样&rdquo;</span></strong></p>
+<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>如果您不知道</span></strong><strong><span style="font-size:15px;font-family: SimSun;color: rgb(68, 114, 196);">这</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";color: rgb(68, 114, 196);'>个</span></strong><strong><span style="font-size:15px;font-family: SimSun;">词</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>的</span></strong><strong><span style="font-size:15px;font-family: SimSun;">话</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>，可以</span></strong><strong><span style="font-size:15px;font-family: SimSun;">选择</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&ldquo;我不知道</span></strong><strong><span style="font-size:15px;font-family: SimSun;">这</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>个</span></strong><strong><span style="font-size:15px;font-family: SimSun;">词</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&rdquo;</span></strong></p>
+            `
+        }
+    ]
+    }]
+    return array[0];
+}
+var litijiangjieArray=[ 
+]
+litijiangjieArray.push(mlitijiangjie());
+
 //生成每道题
 function mq(number) {
     array = [{
@@ -43,7 +116,7 @@ function mq(number) {
         questions: [
         {
             type:"html",
-            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br><u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>：これは一種 の<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>だ。",
+            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
         },
         {
             type: "radiogroup",
@@ -73,12 +146,64 @@ function mr(){
 var questionQ1Array=[ 
 ]
 //添加题
-questionQ1Array.push(mq(1));
+for (let i = 1; i < 26; i++) {
+    questionQ1Array.push(mq(i));
+  }
 
 //打乱第一组
 questionQ1Array = shuffle(questionQ1Array);
-//合并原Array和第一组
+//第二组题
+var questionQ2Array=[ 
+]
+//添加题
+for (let i = 26; i < 51; i++) {
+    questionQ2Array.push(mq(i));
+  }
+
+//打乱第二组
+questionQ2Array = shuffle(questionQ2Array);
+//第三组题
+var questionQ3Array=[ 
+]
+//添加题
+for (let i = 51; i < 76; i++) {
+    questionQ3Array.push(mq(i));
+  }
+
+//打乱第三组
+questionQ3Array = shuffle(questionQ3Array);
+//第四组题
+var questionQ4Array=[ 
+]
+//添加题
+for (let i = 76; i < 101; i++) {
+    questionQ4Array.push(mq(i));
+  }
+
+//打乱第四组
+questionQ4Array = shuffle(questionQ4Array);
+//第五组题
+var questionQ5Array=[ 
+]
+//添加题
+for (let i = 101;i < 125 ; i++) {
+    questionQ5Array.push(mq(i));
+  }
+
+//打乱第五组
+questionQ5Array = shuffle(questionQ5Array);
+//添加题到框架
+Array.prototype.push.apply(json.pages, litiArray);
+Array.prototype.push.apply(json.pages, litijiangjieArray);
 Array.prototype.push.apply(json.pages, questionQ1Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ2Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ3Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ4Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ5Array);
 
 //---------------------
 
