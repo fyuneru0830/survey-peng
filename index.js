@@ -73,7 +73,7 @@ function mr(){
 var questionQ1Array=[ 
 ]
 //添加题
-questionQ1Array.push(mq(106));
+questionQ1Array.push(mq(105));
 
 //打乱第一组
 questionQ1Array = shuffle(questionQ1Array);
