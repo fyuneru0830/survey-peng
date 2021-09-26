@@ -1375,7 +1375,18 @@ var jsondata = `
       "E": "我不知道这个词",
       "target": "胸水",
       "correct": "C"
-  }
+  },
+  {
+    "nom": 125,
+    "text": "<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>：<u>それは&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>。",
+    "A": "那个不听",
+    "B": "那个不一样",
+    "C": "那个做不到",
+    "D": "那个不知道",
+    "E": "我不知道这个词",
+    "target": "違う",
+    "correct": "B"
+}
   ]
 }
 `
