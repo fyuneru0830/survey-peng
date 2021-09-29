@@ -9,7 +9,7 @@ showTimerPanel: "top",
 // maxTimeToFinishPage: 19,
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
-startSurveyText: "开始做测试",
+startSurveyText: "开始做例题",
 
 
 pages: [
@@ -73,7 +73,7 @@ function mliti(number=0) {
         },
         {
             type: "radiogroup",
-            title:"请选择中文意思",
+            title:"请选择中文意思最接近的一项",
             name: ""+data[number]['target']+"",
             choices: [
                 ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
@@ -97,7 +97,7 @@ function mliti2(number=125) {
         },
         {
             type: "radiogroup",
-            title:"请选择中文意思",
+            title:"请选择中文意思最接近的一项",
             name: ""+data[number]['target']+"",
             choices: [
                 ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
@@ -202,7 +202,7 @@ function mq(number) {
         },
         {
             type: "radiogroup",
-            title:"请选择意思最接近的中文",
+            title:"请选择中文意思最接近的一项",
             name: ""+data[number]['target']+"",
             choices: [
                 ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
@@ -219,7 +219,7 @@ function mr(){
         questions: [
         {
             type:"html",
-            html:"休息20秒（ 20秒后将自动开始下一组题目）<br><br>点击下一步直接继续答题",
+            html:"休息20秒（ 20秒后将自动开始下一组题目）<br><br>也可以点击下一页直接继续答题",
         },
     ]
     }]
