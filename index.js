@@ -179,8 +179,8 @@ function jieshaokaishi(number=1) {
         {
             type:"html",
             html:`
-            例题演练结束，接下来开始正式答题（如有疑问，请关闭窗口，联系调查员）。正式开始答题后，将无法为您保留答题进度，请一次性完成所有题目
-
+            例题演练结束，接下来开始正式答题（如有疑问，请关闭窗口，联系调查员）。正式开始答题后，将无法为您保留答题进度，请一次性完成所有题目。
+            另外，<b>每完成25道题后，您将会有20秒的休息时间。如果您觉得已经休息好了，可以点击“下一页”跳过休息。</b>
             `
         }
     ]
@@ -194,7 +194,7 @@ jieshaokaishiArray.push(jieshaokaishi());
 //生成每道题
 function mq(number) {
     array = [{
-        maxTimeToFinish: 19,
+        maxTimeToFinish: 20,
         questions: [
         {
             type:"html",
