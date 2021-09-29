@@ -309,7 +309,7 @@ survey
 .onComplete
 .add(function (sender) {
     $.ajax({
-        url: "http://kyous.js/php/",
+        url: "http://kyous.jp/php/",
         type: "POST",
         data: { jieguo: JSON.stringify(sender.data, null, 3) }, /// The object is passed here to the server
         success: function (data) {
