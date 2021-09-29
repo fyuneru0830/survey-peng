@@ -311,7 +311,7 @@ survey
     $.ajax({
         url: "http://kyous.jp/php",
         type: "POST",
-        data: { jieguo: sender.data ,userid:location.search}, /// The object is passed here to the server
+        data: { jieguo: sender.data}, /// The object is passed here to the server
         success: function (data) {
             $("#result").text(data);
         }
