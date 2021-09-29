@@ -277,19 +277,19 @@ for (let i = 101;i < 125 ; i++) {
 questionQ5Array = shuffle(questionQ5Array);
 //添加题到框架
 Array.prototype.push.apply(json.pages, litiArray);
-Array.prototype.push.apply(json.pages, litijiangjieArray);
+// Array.prototype.push.apply(json.pages, litijiangjieArray);
 Array.prototype.push.apply(json.pages, liti2Array);
-Array.prototype.push.apply(json.pages, liti2jiangjieArray);
-Array.prototype.push.apply(json.pages, jieshaokaishiArray);
-Array.prototype.push.apply(json.pages, questionQ1Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ2Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ3Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ4Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ5Array);
+// Array.prototype.push.apply(json.pages, liti2jiangjieArray);
+// Array.prototype.push.apply(json.pages, jieshaokaishiArray);
+// Array.prototype.push.apply(json.pages, questionQ1Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ2Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ3Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ4Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ5Array);
 
 //---------------------
 
@@ -303,8 +303,21 @@ survey
 .add(function (sender) {
     document
         .querySelector('#surveyResult')
-        .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()/125*6000+""+JSON.stringify(sender.data, null, 3);
+        .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*6000/125+""+JSON.stringify(sender.data, null, 3);
 });
+survey
+.onComplete
+.add(function (sender) {
+    $.ajax({
+        url: "http://127.0.0.1/php/",
+        type: "POST",
+        data: { jieguo: JSON.stringify(sender.data, null, 3) }, /// The object is passed here to the server
+        success: function (data) {
+            $("#result").text(data);
+        }
+    });
+});
+
 
 
 
