@@ -155,7 +155,7 @@ function mliti2jiangjie(number=1) {
             
             <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">您听到</span></strong><strong><span style="font-family:SimSun; font-size:15px">录</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">音是</span></strong></p>
             
-            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px"><u>ちがいます</u>：<u>それはちがいます</u></span></strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">。</span></p>
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px"><u>ちがう</u>：<u>それはちがいます</u></span></strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">。</span></p>
             
             <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&nbsp;</span></strong></p>
             
