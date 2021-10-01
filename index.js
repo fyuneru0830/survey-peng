@@ -41,7 +41,7 @@ pages: [
                 <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
                 <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">每</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">都有</span><span style="font-size:15px;font-family: DengXian;">5</span><span style="font-size:15px;font-family: DengXian;">个</span><span style="font-size:15px;font-family: DengXian;">选项</span><span style="font-size:15px;font-family: DengXian;">，请从前</span><span style="font-size:15px;font-family: DengXian;">4</span><span style="font-size:15px;font-family: DengXian;">个选项（</span><span style="font-size:15px;font-family: DengXian;">A</span><span style="font-size:15px;font-family: DengXian;">～</span><span style="font-size:15px;font-family: DengXian;">D</span><span style="font-size:15px;font-family: DengXian;">）中选出与<strong>单词</strong>或<strong>下划线部分</strong>的含义<strong><u>最接近的一项</u></strong>。当您完全不知道</span><span style="font-size:15px;font-family: DengXian;">该单词或该划线部分的含义时</span><span style="font-size:15px;font-family: DengXian;">，</span><span style="font-size:15px;font-family: DengXian;">请选择</span><span style="font-size:15px;font-family: DengXian;">最后一个</span><span style="font-size:15px;font-family: DengXian;">选项</span><span style="font-size:15px;font-family: DengXian;">&ldquo;我不知道</span><span style="font-size:15px;font-family: DengXian;">这</span><span style="font-size:15px;font-family: DengXian;">个</span><span style="font-size:15px;font-family: DengXian;">词</span><span style="font-size:15px;font-family: DengXian;">&rdquo;。</span></p>
                 <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">&nbsp;</span></p>
-                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">请</span><span style="font-size:15px;font-family: DengXian;">不要在某一道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">上</span><span style="font-size:15px;font-family: DengXian;">犹豫过多的时间。</span><span style="font-size:15px;font-family: DengXian;">每道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">的做</span><span style="font-size:15px;font-family: DengXian;">题时间<span style="color: rgb(68, 114, 196);">上限为</span></span><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">20</span></strong><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">秒</span></strong><span style="font-size:15px;font-family: DengXian;">（包括播放录音的时间），完成选择后请点击&ldquo;下一题&rdquo;。请注意：①若</span><span style="font-size:15px;font-family: DengXian;">20</span><span style="font-size:15px;font-family: DengXian;">秒内没有点击&ldquo;</span><span style="font-size:15px;font-family: DengXian;">下一题</span><span style="font-size:15px;font-family: DengXian;">&rdquo;，页面将会<strong>自动跳转</strong>到下一题，</span><span style="font-size:15px;font-family: DengXian;">②&nbsp;</span><span style="font-size:15px;font-family: DengXian;">页面一旦跳转后，将<strong>无法回退</strong>到上一页面，所以每道题请看清题目和选项后再作答</span><span style="font-size:15px;font-family: DengXian;">。</span></p><br><b><span style="color:#FF0000;">有时页面反应可能会较慢，请耐心等候，切勿重复点&ldquo;下一页&rdquo;，否则可能会连续跳过多道题目<br>如果是过了19秒答题时间自动跳转的话，下一题需要手动点播放</span>`,
+                <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><span style="font-size:15px;font-family: DengXian;">请</span><span style="font-size:15px;font-family: DengXian;">不要在某一道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">上</span><span style="font-size:15px;font-family: DengXian;">犹豫过多的时间。</span><span style="font-size:15px;font-family: DengXian;">每道</span><span style="font-size:15px;font-family: DengXian;">题</span><span style="font-size:15px;font-family: DengXian;">的做</span><span style="font-size:15px;font-family: DengXian;">题时间<span style="color: rgb(68, 114, 196);">上限为</span></span><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">20</span></strong><strong><span style="font-size:15px;font-family: DengXian;color: rgb(68, 114, 196);">秒</span></strong><span style="font-size:15px;font-family: DengXian;">（包括播放录音的时间），完成选择后请点击&ldquo;下一页&rdquo;。请注意：①若</span><span style="font-size:15px;font-family: DengXian;">20</span><span style="font-size:15px;font-family: DengXian;">秒内没有点击&ldquo;</span><span style="font-size:15px;font-family: DengXian;">下一页</span><span style="font-size:15px;font-family: DengXian;">&rdquo;，页面将会<strong>自动跳转</strong>到下一页，</span><span style="font-size:15px;font-family: DengXian;">②&nbsp;</span><span style="font-size:15px;font-family: DengXian;">页面一旦跳转后，将<strong>无法回退</strong>到上一页面，所以每道题请看清题目和选项后再作答</span><span style="font-size:15px;font-family: DengXian;">。</span></p><br><b><span style="color:#FF0000;">有时页面反应可能会较慢，请耐心等候，切勿重复点&ldquo;下一页&rdquo;，<br>如果是过了19秒答题时间自动跳转的话，下一题需要手动点播放</span>`,
             }
 
         ]
@@ -118,14 +118,22 @@ function mlitijiangjie(number=0) {
         {
             type:"html",
             html:`
-            <p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style="font-size:19px;font-family: SimSun;">讲</span></strong><strong><span style='font-size:19px;font-family: "ＭＳ ゴシック";'>解</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>（正式</span></strong><strong><span style="font-size:15px;font-family: SimSun;">测试</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>没有</span></strong><strong><span style="font-size:15px;font-family: SimSun;">讲</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>解）</span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&nbsp;</span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>您听到</span></strong><strong><span style="font-size:15px;font-family: SimSun;">录</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>音是</span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><u><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>違う</span></u></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>：それは<u>違います</u><em>。</em></span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&nbsp;</span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>所以，正确选项是：&ldquo;</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>D&nbsp;</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>不一样&rdquo;</span></strong></p>
-<p style='margin: 6pt 0mm 0mm;font-family: "Times New Roman", serif;line-height: 16pt;'><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>如果您不知道</span></strong><strong><span style="font-size:15px;font-family: SimSun;">这</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>个</span></strong><strong><span style="font-size:15px;font-family: SimSun;">词</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>的</span></strong><strong><span style="font-size:15px;font-family: SimSun;">话</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>，可以</span></strong><strong><span style="font-size:15px;font-family: SimSun;">选择</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&ldquo;我不知道</span></strong><strong><span style="font-size:15px;font-family: SimSun;">这</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>个</span></strong><strong><span style="font-size:15px;font-family: SimSun;">词</span></strong><strong><span style='font-size:15px;font-family: "ＭＳ ゴシック";'>&rdquo;</span></strong></p>
-            `
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:SimSun; font-size:19px">讲</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:19px">解</span></strong><span style="color:#e74c3c"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">（正式</span></strong><strong><span style="font-family:SimSun; font-size:15px">测试</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">没有</span></strong><strong><span style="font-family:SimSun; font-size:15px">讲</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">解）</span></strong></span></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&nbsp;</span></strong></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">您听到</span></strong><strong><span style="font-family:SimSun; font-size:15px">录</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">音是</span></strong></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px"><u>ちがう</u>：それは<u>ちがいます</u><em>。</em></span></strong></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&nbsp;</span></strong></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">所以，正确选项是：&ldquo;</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">D&nbsp;</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">不一样&rdquo;</span></strong></p>
+
+<p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">如果您不知道</span></strong><strong><span style="font-family:SimSun; font-size:15px">这</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">个</span></strong><strong><span style="font-family:SimSun; font-size:15px">词</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">的</span></strong><strong><span style="font-family:SimSun; font-size:15px">话</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">，可以</span></strong><strong><span style="font-family:SimSun; font-size:15px">选择</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&ldquo;我不知道</span></strong><strong><span style="font-family:SimSun; font-size:15px">这</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">个</span></strong><strong><span style="font-family:SimSun; font-size:15px">词</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&rdquo;</span></strong></p>
+
+
+           `
         }
     ]
     }]
@@ -142,24 +150,21 @@ function mliti2jiangjie(number=1) {
         {
             type:"html",
             html:`
-            <html>
-<head>
-	<title></title>
-</head>
-<body>
-<p><strong>您听到</strong><strong>录</strong><strong>音是</strong></p>
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:SimSun; font-size:19px">讲</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:19px">解</span></strong><span style="color:#e74c3c"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">（正式</span></strong><strong><span style="font-family:SimSun; font-size:15px">测试</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">没有</span></strong><strong><span style="font-family:SimSun; font-size:15px">讲</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">解）</span></strong></span></p>
 
-<p><strong><u>ちがいます</u></strong><strong>：<u>それはちがいます</u><em>。</em></strong></p>
-
-<p>&nbsp;</p>
-
-<p><strong>所以，正确</strong><strong>选项</strong><strong>是：&ldquo;</strong><strong>B&nbsp;</strong><strong>那个不一</strong><strong>样</strong><strong>&rdquo;</strong></p>
-
-<p>&nbsp;</p>
-
-<p><strong>如果您不知道词的话，可以选择&ldquo;我不知道这个词&rdquo;</strong></p>
-</body>
-</html>
+            <p style="margin-left:0; margin-right:0">&nbsp;</p>
+            
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">您听到</span></strong><strong><span style="font-family:SimSun; font-size:15px">录</span></strong><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">音是</span></strong></p>
+            
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px"><u>ちがいます</u>：<u>それはちがいます</u></span></strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">。</span></p>
+            
+            <p style="margin-left:0; margin-right:0"><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">&nbsp;</span></strong></p>
+            
+            <p><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">所以，正确选项是：&ldquo;B&nbsp;那个不一样&rdquo;</span></strong></p>
+            
+            <p><strong><span style="font-family:&quot;ＭＳ ゴシック&quot;; font-size:15px">如果您不知道词的话，可以选择&ldquo;我不知道这个词&rdquo;</span></strong></p>
+            
+            
 
             `
         }
@@ -203,7 +208,7 @@ function mq(number) {
         {
             type: "radiogroup",
             title:"请选择中文意思最接近的一项",
-            name: ""+data[number]['target']+"",
+            name: ""+data[number-2]['target']+"",
             choices: [
                 ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
             correctAnswer: ""+data[number][data[number]['correct']]+""
@@ -219,7 +224,7 @@ function mr(){
         questions: [
         {
             type:"html",
-            html:"休息20秒（ 20秒后将自动开始下一组题目）<br><br>也可以点击下一页直接继续答题",
+            html:"休息20秒（ 20秒后将自动开始下一组题目）<br><br>也可以点击\"下一页\"直接继续答题",
         },
     ]
     }]
@@ -303,7 +308,8 @@ survey
 .add(function (sender) {
     document
         .querySelector('#surveyResult')
-        .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*6000/125+""+JSON.stringify(sender.data, null, 3);
+        .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*400;
+        //""+JSON.stringify(sender.data, null, 3);
 });
 survey
 .onComplete
