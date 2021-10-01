@@ -10,8 +10,6 @@ showTimerPanel: "top",
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
 startSurveyText: "开始做例题",
-showQuestionNumbers:false,
-
 
 pages: [
     {
