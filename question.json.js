@@ -1116,7 +1116,7 @@ var jsondata = `
       "nom": 101,
       "text": "<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>：仕事で<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>を使う。",
       "A": "用来打孔的东西",
-      "B": "用来测量角度的东西",
+      "B": "用来测量角度或长度的东西",
       "C": "用来裁纸的东西",
       "D": "用来画线的东西",
       "E": "我不知道这个词",
