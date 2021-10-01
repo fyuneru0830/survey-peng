@@ -10,6 +10,7 @@ showTimerPanel: "top",
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
 startSurveyText: "开始做例题",
+showQuestionNumbers:false,
 
 
 pages: [
@@ -208,7 +209,7 @@ function mq(number) {
         {
             type: "radiogroup",
             title:"请选择中文意思最接近的一项",
-            name: ""+data[number-2]['target']+"",
+            name: ""+data[number]['target']+"",
             choices: [
                 ""+data[number]['A']+"", ""+data[number]['B']+"", ""+data[number]['C']+"", ""+data[number]['D']+"", ""+data[number]['E']+""],
             correctAnswer: ""+data[number][data[number]['correct']]+""
