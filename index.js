@@ -9,7 +9,7 @@ showTimerPanel: "top",
 // maxTimeToFinishPage: 19,
 //maxTimeToFinish: 25000,
 firstPageIsStarted: true,
-startSurveyText: "开始做例题",
+startSurveyText: "开始测试",
 
 pages: [
     {
@@ -283,19 +283,19 @@ for (let i = 101;i < 125 ; i++) {
 //打乱第五组
 questionQ5Array = shuffle(questionQ5Array);
 //添加题到框架
-Array.prototype.push.apply(json.pages, litiArray);
-Array.prototype.push.apply(json.pages, litijiangjieArray);
-Array.prototype.push.apply(json.pages, liti2Array);
-Array.prototype.push.apply(json.pages, liti2jiangjieArray);
-Array.prototype.push.apply(json.pages, jieshaokaishiArray);
-Array.prototype.push.apply(json.pages, questionQ1Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ2Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ3Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ4Array);
-Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, litiArray);
+// Array.prototype.push.apply(json.pages, litijiangjieArray);
+// Array.prototype.push.apply(json.pages, liti2Array);
+// Array.prototype.push.apply(json.pages, liti2jiangjieArray);
+// Array.prototype.push.apply(json.pages, jieshaokaishiArray);
+// Array.prototype.push.apply(json.pages, questionQ1Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ2Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ3Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ4Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
 Array.prototype.push.apply(json.pages, questionQ5Array);
 
 //---------------------
@@ -319,10 +319,13 @@ survey
     $.ajax({
         url: "https://kyous.jp/php/",
         type: "POST",
-        data: { jieguo: sender.data }, /// The object is passed here to the server
+        data: { jieguo: sender.data,score:survey.getCorrectedAnswerCount() }, /// The object is passed here to the server
         success: function (data) {
             $("#result").text(data);
-        }
+        },
+        error: function(data) {
+            alert('提交数据错误，请截图词汇量画面并发送给管理者');
+         }
     });
 });
 
