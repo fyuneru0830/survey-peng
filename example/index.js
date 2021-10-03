@@ -85,6 +85,7 @@ function mliti(number=0) {
 var litiArray=[ 
 ]
 litiArray.push(mliti());
+
 //生成例题2
 function mliti2(number=125) {
     array = [{
