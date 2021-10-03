@@ -296,26 +296,26 @@ Array.prototype.push.apply(json.pages, jieshaokaishiArray);
 //---------------------
 
 window.survey = new Survey.Model(json);
-survey
-.onComplete
-.add(function (sender) {
-    document
-        .querySelector('#surveyResult')
-        .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*400;
-        //""+JSON.stringify(sender.data, null, 3);
-});
-survey
-.onComplete
-.add(function (sender) {
-    $.ajax({
-        url: "https://kyous.jp/php/",
-        type: "POST",
-        data: { jieguo: sender.data }, /// The object is passed here to the server
-        success: function (data) {
-            $("#result").text(data);
-        }
-    });
-});
+// survey
+// .onComplete
+// .add(function (sender) {
+//     document
+//         .querySelector('#surveyResult')
+//         .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*400;
+//         //""+JSON.stringify(sender.data, null, 3);
+// });
+// survey
+// .onComplete
+// .add(function (sender) {
+//     $.ajax({
+//         url: "https://kyous.jp/php/",
+//         type: "POST",
+//         data: { jieguo: sender.data }, /// The object is passed here to the server
+//         success: function (data) {
+//             $("#result").text(data);
+//         }
+//     });
+// });
 
 
 
