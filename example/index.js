@@ -3,7 +3,7 @@ Survey
 .applyTheme("modern");
 
 var json = {
-title: "词汇量测试",
+title: "词汇量测试（例题）",
 showProgressBar: "bottom",
 showTimerPanel: "top",
 // maxTimeToFinishPage: 19,
@@ -297,14 +297,14 @@ Array.prototype.push.apply(json.pages, jieshaokaishiArray);
 //---------------------
 
 window.survey = new Survey.Model(json);
-// survey
-// .onComplete
-// .add(function (sender) {
-//     document
-//         .querySelector('#surveyResult')
-//         .textContent = "您大约的词汇量为:\n" + survey.getCorrectedAnswerCount()*400;
-//         //""+JSON.stringify(sender.data, null, 3);
-// });
+survey
+.onComplete
+.add(function (sender) {
+    document
+        .querySelector('#surveyResult')
+        .textContent = "请您打开正式测试链接";
+        //""+JSON.stringify(sender.data, null, 3);
+});
 // survey
 // .onComplete
 // .add(function (sender) {
