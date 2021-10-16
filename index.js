@@ -276,26 +276,26 @@ questionQ4Array = shuffle(questionQ4Array);
 var questionQ5Array=[ 
 ]
 //添加题
-for (let i = 101;i < 125 ; i++) {
+for (let i = 101;i < 126 ; i++) {
     questionQ5Array.push(mq(i));
   }
 
 //打乱第五组
 questionQ5Array = shuffle(questionQ5Array);
 //添加题到框架
-// Array.prototype.push.apply(json.pages, litiArray);
-// Array.prototype.push.apply(json.pages, litijiangjieArray);
-// Array.prototype.push.apply(json.pages, liti2Array);
-// Array.prototype.push.apply(json.pages, liti2jiangjieArray);
-// Array.prototype.push.apply(json.pages, jieshaokaishiArray);
-// Array.prototype.push.apply(json.pages, questionQ1Array);
-// Array.prototype.push.apply(json.pages, [mr()]);
-// Array.prototype.push.apply(json.pages, questionQ2Array);
-// Array.prototype.push.apply(json.pages, [mr()]);
-// Array.prototype.push.apply(json.pages, questionQ3Array);
-// Array.prototype.push.apply(json.pages, [mr()]);
-// Array.prototype.push.apply(json.pages, questionQ4Array);
-// Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, litiArray);
+Array.prototype.push.apply(json.pages, litijiangjieArray);
+Array.prototype.push.apply(json.pages, liti2Array);
+Array.prototype.push.apply(json.pages, liti2jiangjieArray);
+Array.prototype.push.apply(json.pages, jieshaokaishiArray);
+Array.prototype.push.apply(json.pages, questionQ1Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ2Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ3Array);
+Array.prototype.push.apply(json.pages, [mr()]);
+Array.prototype.push.apply(json.pages, questionQ4Array);
+Array.prototype.push.apply(json.pages, [mr()]);
 Array.prototype.push.apply(json.pages, questionQ5Array);
 
 //---------------------
