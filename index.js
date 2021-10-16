@@ -288,14 +288,14 @@ questionQ5Array = shuffle(questionQ5Array);
 // Array.prototype.push.apply(json.pages, liti2Array);
 // Array.prototype.push.apply(json.pages, liti2jiangjieArray);
 // Array.prototype.push.apply(json.pages, jieshaokaishiArray);
-Array.prototype.push.apply(json.pages, questionQ1Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ2Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ3Array);
-Array.prototype.push.apply(json.pages, [mr()]);
-Array.prototype.push.apply(json.pages, questionQ4Array);
-Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ1Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ2Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ3Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
+// Array.prototype.push.apply(json.pages, questionQ4Array);
+// Array.prototype.push.apply(json.pages, [mr()]);
 Array.prototype.push.apply(json.pages, questionQ5Array);
 
 //---------------------
@@ -317,7 +317,7 @@ survey
 .onComplete
 .add(function (sender) {
     $.ajax({
-        url: "http://kyous.jp/php/",
+        url: "http://kyous.jp/php/index.php",
         type: "POST",
         data: { jieguo: sender.data,score:survey.getCorrectedAnswerCount() }, /// The object is passed here to the server
         success: function (data) {
