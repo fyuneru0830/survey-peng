@@ -283,10 +283,10 @@ for (let i = 101;i < 126 ; i++) {
 //打乱第五组
 questionQ5Array = shuffle(questionQ5Array);
 //添加题到框架
-Array.prototype.push.apply(json.pages, litiArray);
-Array.prototype.push.apply(json.pages, litijiangjieArray);
-Array.prototype.push.apply(json.pages, liti2Array);
-Array.prototype.push.apply(json.pages, liti2jiangjieArray);
+// Array.prototype.push.apply(json.pages, litiArray);
+// Array.prototype.push.apply(json.pages, litijiangjieArray);
+// Array.prototype.push.apply(json.pages, liti2Array);
+// Array.prototype.push.apply(json.pages, liti2jiangjieArray);
 Array.prototype.push.apply(json.pages, jieshaokaishiArray);
 Array.prototype.push.apply(json.pages, questionQ1Array);
 Array.prototype.push.apply(json.pages, [mr()]);

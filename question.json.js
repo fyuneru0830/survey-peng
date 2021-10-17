@@ -1378,14 +1378,14 @@ var jsondata = `
   },
   {
     "nom": 125,
-    "text": "<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>：<u>それは&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>。",
-    "A": "那个不听",
-    "B": "那个不一样",
-    "C": "那个做不到",
-    "D": "那个不知道",
+    "text": "<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>：彼らは<u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>へ向かった。",
+    "A": "饲养牛、猪的地方",
+    "B": "河流入海洋的地方",
+    "C": "面向日出方向，再稍偏右的方位",
+    "D": "剧场舞台背后有演员的地方",
     "E": "我不知道这个词",
-    "target": "違う",
-    "correct": "B"
+    "target": "南東",
+    "correct": "C"
 }
   ]
 }
