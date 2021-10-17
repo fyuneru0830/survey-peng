@@ -3,7 +3,7 @@ Survey
 .applyTheme("modern");
 
 var json = {
-title: "词汇量测试",
+title: "词汇量测试 ver2.1",
 showProgressBar: "bottom",
 showTimerPanel: "top",
 // maxTimeToFinishPage: 19,
