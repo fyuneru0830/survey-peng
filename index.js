@@ -317,7 +317,7 @@ survey
 .onComplete
 .add(function (sender) {
     $.ajax({
-        url: "http://8.214.41.205/php/index.php",
+        url: "http://kyous.jp/php/index.php",
         type: "POST",
         data: { jieguo: sender.data,score:survey.getCorrectedAnswerCount() }, /// The object is passed here to the server
         success: function (data) {
