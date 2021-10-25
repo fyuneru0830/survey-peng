@@ -68,7 +68,7 @@ function mliti(number=0) {
         questions: [
         {
             type:"html",
-            html:"<h1>例题1：</h1><audio src=\"audio/0.mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
+            html:"<h1>例题1：</h1><audio src=\"https://survey-peng.oss-cn-beijing.aliyuncs.com/0.mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
         },
         {
             type: "radiogroup",
@@ -93,7 +93,7 @@ function mliti2(number=125) {
         questions: [
         {
             type:"html",
-            html:"<h1>例题2：</h1><audio src=\"audio/0.mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
+            html:"<h1>例题2：</h1><audio src=\"https://survey-peng.oss-cn-beijing.aliyuncs.com/0.mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
         },
         {
             type: "radiogroup",
