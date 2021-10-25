@@ -205,7 +205,7 @@ function mq(number) {
         questions: [
         {
             type:"html",
-            html:"<audio src=\"audio/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
+            html:"<audio src=\"https://survey-peng.oss-cn-beijing.aliyuncs.com/"+data[number]['nom']+".mp3\" autoplay controls></audio></div></br>"+data[number]['text'],
         },
         {
             type: "radiogroup",
